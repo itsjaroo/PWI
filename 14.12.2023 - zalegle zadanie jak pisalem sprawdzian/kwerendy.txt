@@ -1,0 +1,3 @@
+SELECT id, nazwa, wystepowanie FROM ryby where styl_zycia=1;
+
+SELECT ryby.nazwa, lowisko.akwen, lowisko.wojewodztwo FROM ryby INNER JOIN lowisko on ryby.id=lowisko.Ryby_id WHERE lowisko.rodzaj = 3;
