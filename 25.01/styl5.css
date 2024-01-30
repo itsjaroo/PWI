@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+header {
+    display: flex;
+}
+section.heading {
+    background-color: #483D8B;
+    height: 150px;
+    width: 30%;
+}
+section.cal_body {
+    background-color: #483D8B;
+    color: white;
+    width: 150px;
+    width: 70%;
+}
+.month {
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    margin: 3px;
+    border: 1px solid;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+h5 {
+    text-align: cetner;
+}
+footer {
+    background-color: #483D8B;
+    color: white;
+    padding: 10px;
+}
+
+.line {
+    display: flex;
+}
